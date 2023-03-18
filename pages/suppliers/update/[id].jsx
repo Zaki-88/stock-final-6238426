@@ -42,7 +42,7 @@ export default function Supplier({ supplier }) {
   return (
     <>
       <Head>
-        <title>Update {supplier.title}</title>
+        <title>Update {supplier.supplier_name}</title>
       </Head>
 
       <div style={{ margin: '1rem' }}>

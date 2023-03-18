@@ -36,7 +36,7 @@ export default function AddSupplierPage() {
             Supplier Name
           </label>
           <input
-            {...register("supplierName", { required: true })}
+            {...register("supplier_name", { required: true })}
             placeholder="Enter supplier name"
             style={{ padding: "0.5rem", marginBottom: "1rem", borderRadius: "5px", border: "1px solid #ccc" }}
           />
@@ -54,7 +54,7 @@ export default function AddSupplierPage() {
             Supplier Number
           </label>
           <input
-            {...register("supplierNumber")}
+            {...register("phone_number")}
             placeholder="Enter supplier number"
             style={{ padding: "0.5rem", marginBottom: "1rem", borderRadius: "5px", border: "1px solid #ccc" }}
           />
