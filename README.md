@@ -1,3 +1,6 @@
+## Developer
+ZheQi Shen 6238426
+
 ## Supplier Management App
 This is a web application for managing suppliers. It is an extension of the Stock Management project we made in class.
 
@@ -15,7 +18,9 @@ Show a table of all suppliers sorted by name.
 
 
 ## Usability
-The UI is designed to be usable with no dead links, broken links, or blank pages.
+In fact, I can implement all the functionality on localhost:3000. Except the sort by name function. But, when I upload to vercel, There is a 500 problem appeared.
+
+
 
 ## Styling
 The app features a stunning design and styling with professional CSS. The default Bootstrap Style is used as a base.
