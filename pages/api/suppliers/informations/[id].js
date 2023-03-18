@@ -1,5 +1,5 @@
 import dbConnect from "@/lib/dbConnect";
-import Information from "@/models/Information"
+import Information from "@/models/Informations"
 import { connect, model, models, Schema } from "mongoose"
 
 
