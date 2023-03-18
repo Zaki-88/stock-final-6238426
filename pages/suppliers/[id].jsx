@@ -70,7 +70,7 @@ export async function getServerSideProps({ params }) {
     console.debug("params", params);
     try {
         const response = await axios.get(
-            `http://localhost:3000/api/suppliers/informations/${params.id}`
+            `https://stock-final-6238426/api/suppliers/informations//${params.id}`
         );
         const supplier = response.data;
         console.debug("supplier 1", supplier);
